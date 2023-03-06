@@ -1,5 +1,5 @@
 @import "fontSize.scss";
-@import "../../null.scss";
+@import "null.scss";
 @import "func_var.scss";
 
 // block elements ==========
@@ -303,7 +303,7 @@ header {
             bottom: 0;
             left: 0;
             right: 0;
-            background-image: url("./img/main/picMain.svg");
+            background-image: url("../img/main/picMain.svg");
             background-repeat: no-repeat;
             background-position: center 20%;
             background-size: 90% 80%;
@@ -348,7 +348,7 @@ header {
 
     &__artObj {
         position: absolute;
-        background-image: url("./img/main/pic6.svg");
+        background-image: url("../img/main/pic6.svg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -383,7 +383,7 @@ header {
                 bottom: 0;
                 left: -23.58%;
                 bottom: -80%;
-                background-image: url("./img/main/pic7.svg");
+                background-image: url("../img/main/pic7.svg");
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: contain;
@@ -424,7 +424,7 @@ header {
                 top: -110%;
                 right: 0;
 
-                background-image: url("./img/main/pic8.svg");
+                background-image: url("../img/main/pic8.svg");
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: contain;
@@ -875,7 +875,7 @@ header {
         &::after {
             content: "";
             position: absolute;
-            background-image: url("img/feedback/picAbs.svg");
+            background-image: url("../img/feedback/picAbs.svg");
             background-repeat: no-repeat;
             background-size: 100% 100%;
             width: 20.36%;
@@ -917,17 +917,17 @@ header {
     }
 
     &__img1 {
-        background-image: url("img/feedback/pic2.jpg");
+        background-image: url("../img/feedback/pic2.jpg");
         background-position: center;
     }
     &__img2 {
-        background-image: url("img/feedback/pic3.jpg");
+        background-image: url("../img/feedback/pic3.jpg");
     }
     &__img3 {
-        background-image: url("img/feedback/pic4.jpg");
+        background-image: url("../img/feedback/pic4.jpg");
     }
     &__img4 {
-        background-image: url("img/feedback/pic5.jpg");
+        background-image: url("../img/feedback/pic5.jpg");
     }
 
     &__header {

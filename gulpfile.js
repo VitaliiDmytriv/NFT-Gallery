@@ -8,14 +8,14 @@ const concat = require("gulp-concat");
 
 gulp.task("sass", function () {
     return gulp
-        .src("./Responsive_learning/style/**/*.scss")
+        .src("./style/**/*.scss")
         .pipe(sourcemaps.init())
         .pipe(sass().on("error", sass.logError))
         .pipe(sourcemaps.write("./"))
         .pipe(concat("main.css"))
-        .pipe(gulp.dest("./Responsive_learning/"));
+        .pipe(gulp.dest("./src"));
 });
 
 gulp.task("run", function () {
-    gulp.watch("./Responsive_learning/style/**/*.scss", gulp.series("sass"));
+    gulp.watch("./style/**/*.scss", gulp.series("sass"));
 });
