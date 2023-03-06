@@ -1,0 +1,28 @@
+// Color ===================
+$primaryColor: #ff014f;
+$secondaryColor: #1e2d48;
+$thirdColor: #313131;
+
+// font-size ===============
+$baseFZ: 16;
+$baseVW: 0.390625vw;
+$baseWidthScreen: 74.375rem;
+
+@mixin fontSize($fz, $fluidFZ, $lineHeight, $marginB: 0) {
+    font-size: calc($fluidFZ / $baseFZ + $baseVW);
+    line-height: calc($lineHeight / $fz);
+    margin-bottom: calc($marginB / $fz);
+}
+
+@mixin margin-bott {
+    margin-bottom: 8.85 + $baseVW;
+    @media (min-width: $baseWidthScreen) {
+        margin-bottom: 6.875rem;
+    }
+}
+
+// ==========================
+
+body {
+    font-family: "DM Sans", sans-serif;
+}
